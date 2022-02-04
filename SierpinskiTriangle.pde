@@ -14,7 +14,7 @@ public void mousePressed(){//optional
   rgb1 = (int)(Math.random()*256);
   rgb2 = (int)(Math.random()*256);
   rgb3 = (int)(Math.random()*256);
-  scope += 10;
+  scope += 20;
 }
 public void sierpinski(int x, int y, int len){
   if(len <= scope){
